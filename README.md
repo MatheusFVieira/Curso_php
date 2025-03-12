@@ -1,1 +1,1 @@
-# curso_php
+Projeto está sendo desenvolvido com o objetivo de praticar a programação com php.
