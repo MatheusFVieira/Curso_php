@@ -10,6 +10,8 @@ while (true) {
     echo "2: Sacar valor\n";
     echo "3: Depositar valor\n";
     echo "4: Sair\n";
+
+    echo"Teste";
     
     $opcao = trim(fgets(STDIN));
 
