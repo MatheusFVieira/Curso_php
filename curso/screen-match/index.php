@@ -4,6 +4,7 @@ require __DIR__ . "/src/Modelo/Titulo.php";
 require __DIR__ . "/src/Modelo/Genero.php";
 require __DIR__ . "/src/Modelo/Filme.php";
 require __DIR__ . "/src/Modelo/Serie.php";
+require __DIR__ . "/src/Modelo/Episodio.php";
 require __DIR__ . "/src/Calculos/CalculadoraDeMaratona.php";
 
 echo "Bem-vindo(a) ao ScreenMatch\n";
@@ -34,6 +35,7 @@ $serie = new Serie(
     20,
     30,
 );
+$episodio = new Episodio($serie, 'Episodio piloto', 1);
 
 echo $serie->anoLancamento . "\n";
 
