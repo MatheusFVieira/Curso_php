@@ -18,6 +18,16 @@ class Produto
         $this->preco = $preco;
     }
 
+    public function getPrecoFormatado(): string
+    {
+        return "R$ ". number_format($this->preco, 2);
+    }
+
+    public function getImagemDiretorio(): string
+    {
+        return "img/".$this->imagem;
+    }
+
     public function getId(): int
     {
         return $this->id;
