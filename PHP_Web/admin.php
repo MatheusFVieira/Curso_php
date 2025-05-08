@@ -31,7 +31,6 @@
             <img class= "ornaments" src="img/ornaments-coffee.png" alt="ornaments">
         </section>
         <h2>Lista de Produtos</h2>
-
         <section class="container-table">
             <table>
                 <thead>
