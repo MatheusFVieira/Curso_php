@@ -23,7 +23,6 @@ do {
             echo "Saldo atual: R$ $saldo\n";
             echo "*************\n";
             break;
-
         case 2:
             echo "Qual valor deseja sacar?\n";
             $valorASacar = (float) fgets(STDIN);
@@ -33,17 +32,14 @@ do {
                 $saldo -= $valorASacar;
             }
             break;
-
         case 3:
             echo "Quanto deseja depositar?\n";
             $valorADepositar = (float) fgets(STDIN);
             $saldo += $valorADepositar;
             break;
-
         case 4:
             echo "Adeus\n";
             break;
-
         default:
             echo "Opção inválida\n";
             break;
