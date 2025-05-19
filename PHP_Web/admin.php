@@ -5,8 +5,6 @@
 
     $produtoRepositorio = new ProdutoRepositorio($pdo);
     $produtos = $produtoRepositorio->buscarTodos();
-
-
 ?>
 
 <!doctype html>
@@ -26,6 +24,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
   <title>Serenatto - Admin</title>
 </head>
+
 <body>
 <main>
   <section class="container-admin-banner">
